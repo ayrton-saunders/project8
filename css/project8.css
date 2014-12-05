@@ -191,7 +191,7 @@ Initial display is none as jquery is used to fade in
 
 /*Styling for About Us Page*/
 #aboutUsSlider {
-    width: 500px;
+    width: 501px;
     height: 250px;
     border-radius: 10px;
     display: none;
@@ -210,6 +210,7 @@ Initial display is none as jquery is used to fade in
 #cakeImg {
     display: inline-block;
     width: 39%;
+    vertical-align: top;
 }
 
 #about-text1 {
@@ -225,6 +226,7 @@ Initial display is none as jquery is used to fade in
 #cake2Img {
     display: inline-block;
     width: 49%;
+    vertical-align: top;
 }
 
 /*Styling for Bliss Overview Page*/
