@@ -9,15 +9,10 @@ $modDate = "25/11/14";
 ?>
 <div id="footer">
     <div id="footerRight">
-        contact us?
         <br>
         <img src="../images/telIcon.jpg" width="20%" height="20%">
          <br>
-        01924 280388,
-        <br>
-        <img src="../images/faxIcon.jpg" width="20%" height="20%"> 
-         <br>
-        01924 280832,
+        01924 280388
         <br>
         <img src="../images/emailIcon.jpg" width="20%" height="20%">
          <br>
