@@ -64,7 +64,7 @@ $pageNo = 3;
                     <div><img src="../images/slide03.jpg"></div>
                 </div>
                 <div id='mobileAboutUsSlider' class="slider center">
-                    <div><img src="../images/mobile/mobileSlide01.jpg"></div>
+                    <div><img src="../images/mobile/mobileApprenticeships.png"></div>
                     <div><img src="../images/mobile/mobileSlide02.jpg"></div>
                     <div><img src="../images/mobile/mobileSlide03.jpg"></div>
                 </div>
