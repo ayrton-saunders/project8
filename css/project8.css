@@ -185,6 +185,9 @@ Initial display is none as jquery is used to fade in
 #mainImgHolder {
     display: none;
 }
+#mobile-mainImgHolder {
+    display: none;
+}
 
 /*Styling for About Us Page*/
 #aboutUsSlider {
@@ -338,18 +341,6 @@ Initial display is none as jquery is used to fade in
         display: none;
     }
     #mobileNavBar {
-        display: block;
-    }
-    #homeSlider {
-        display: none;
-    }
-    #mobileHomeSlider {
-        display: block;
-    }
-    #aboutUsSlider {
-        display: none;
-    }
-    #mobileAboutUsSlider {
         display: block;
     }
     #logoEffect {

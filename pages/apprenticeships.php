@@ -33,6 +33,9 @@ $pageNo = 2;
                 if (window.screen.width > 1200) {
                      $('#mainImgHolder').fadeIn(2000);
                 }
+                if (window.screen.width < 1200) {
+                     $('#mobile-mainImgHolder').fadeIn(2000);
+                }
             });
             
             <?php include_once '../javascript/project8.js'; ?>
@@ -45,6 +48,9 @@ $pageNo = 2;
             <div id="content">
                 <div id="mainImgHolder">
                     <img id="appImg" class="center" src="../images/apprenticeships.png" alt="Apprenticeships Img" width="500px">
+                </div>
+                <div id="mobile-mainImgHolder">
+                    <img id="appImg" class="center" src="../images//mobile/mobileApprenticeships.png" alt="Apprenticeships Img">
                 </div>
                 <h2 class="text-center"> Drive Computing Apprenticeships     </h2>
                 <h3 class="text-center">  Are you interesting in becoming part of our next generation of Project Managers? </h3>

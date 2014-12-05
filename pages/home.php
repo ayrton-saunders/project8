@@ -39,6 +39,9 @@ $pageNo = 1;
                 if (window.screen.width > 1200) {
                      $('#homeSlider').fadeIn(2000);
                 }
+                if (window.screen.width < 1200) {
+                     $('#mobileHomeSlider').fadeIn(2000);
+                }
             });
             
             <?php include_once '../javascript/project8.js'; ?>

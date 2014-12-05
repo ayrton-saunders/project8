@@ -43,7 +43,10 @@ $pageNo = 3;
                 }, 1000);
                 
                 if (window.screen.width > 1200) {
-                     $('#aboutUsSlider  ').fadeIn(2000);
+                     $('#aboutUsSlider').fadeIn(2000);
+                }
+                if (window.screen.width < 1200) {
+                     $('#mobileAboutUsSlider').fadeIn(2000);
                 }
             });
 
