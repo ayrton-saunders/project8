@@ -59,7 +59,7 @@ $pageNo = 3;
             <?php include_once '../includes/header.php'; ?>
             <div id="content">
                 <div id="aboutUsSlider" class="slider center">
-                    <div><img src="../images/slide01.jpg"></div>
+                    <div><img src="../images/apprenticeships.png" width="500" height="188"></div>
                     <div><img src="../images/slide02.jpg"></div>
                     <div><img src="../images/slide03.jpg"></div>
                 </div>
