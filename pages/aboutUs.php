@@ -70,7 +70,7 @@ $pageNo = 3;
                 </div>
                 <h2 class="text-center">About Drive Computing</h2>
                 <div class="about-inlinebox">
-                    <div id="cake.jpg">
+                    <div id="cakeImg">
                         <img src="../images/cake.jpg">
                     </div>
                     <div id="about-text1">
@@ -99,9 +99,9 @@ $pageNo = 3;
                                 Keeping clients supply chain software relevant and effective leads to long and supportive partnerships and product innovations.
                                 This approach also protects your investment in the future.
                             </p>
-                            <div id="cake2.jpg">
-                                <img src="../images/cake2.jpg">
-                            </div>
+                        </div>
+                        <div id="cake2Img">
+                            <img src="../images/cake2.jpg">
                         </div>
                     </div>
             </div>

@@ -211,7 +211,7 @@ Initial display is none as jquery is used to fade in
     width: 100%;
 }
 
-#cake.jpg {
+#cakeImg {
     display: inline-block;
     width: 39%;
 }
@@ -221,14 +221,14 @@ Initial display is none as jquery is used to fade in
    width: 60%;
 }
 
-#cake2.jpg {
-    display: inline-block;
-    width: 39%;
-}
-
 #about-text2 {
    display: inline-block;
-   width: 60%;
+   width: 50%;
+}
+
+#cake2Img {
+    display: inline-block;
+    width: 49%;
 }
 
 /*Styling for Bliss Overview Page*/
