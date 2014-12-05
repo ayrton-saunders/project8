@@ -9,6 +9,7 @@ $pageNo = 3;
 ?>
 <html>
     <head>
+        <link rel="icon" type="image/png" href="../css/favicon.ico"/>
         <link href="../css/project8.css" rel="stylesheet" type="text/css"/>
         <script type="text/javascript" src="../javascript/project8.js"></script>
         <script type='text/javascript' src='../jquery/jquery.min.js'></script>
@@ -40,7 +41,10 @@ $pageNo = 3;
                     left: '100px',
                     width: '250px'
                 }, 1000);
-
+                
+                if (window.screen.width > 1200) {
+                     $('#aboutUsSlider  ').fadeIn(2000);
+                }
             });
 
 
@@ -65,11 +69,18 @@ $pageNo = 3;
                     <div><img src="../images/mobile/mobileSlide03.jpg"></div>
                 </div>
                 <h2 class="text-center">About Drive Computing</h2>
-                    <p>
-                        The original ERP food company UK, Drive Computing is the vendor-supplier to speak to about using ERP in the food and beverage sectors.
-                        With nearly 30 years experience we are the original ERP food company UK. If you are a food or beverage company we really are the people to speak
-                        to about ERP for small and medium sized operations. A British company, Drive Computing was formed in 1983.
-                    </p>
+                <div class="about-inlinebox">
+                    <div id="cake.jpg">
+                        <img src="../images/cake.jpg">
+                    </div>
+                    <div id="about-text1">
+                        <p>
+                            The original ERP food company UK, Drive Computing is the vendor-supplier to speak to about using ERP in the food and beverage sectors.
+                            With nearly 30 years experience we are the original ERP food company UK. If you are a food or beverage company we really are the people to speak
+                            to about ERP for small and medium sized operations. A British company, Drive Computing was formed in 1983.
+                        </p>
+                    </div>
+                </div>
                     <p>
                         We have always focused on process sectors, particularly food and beverage.
                         Clients are able to tap into our 20 plus years in the business.
@@ -80,12 +91,19 @@ $pageNo = 3;
                         Our approach is to develop long term relationships with clients.
                         This understanding enables us to work with clients to identify alterations to the handling of their supply chain.
                     </p>
-                    <p>
-                        Our clients effectively have a stake in the future development of their software.
-                        Admission to the uniquely independent BLISS User Group brings the ability to influence future developments.
-                        Keeping clients supply chain software relevant and effective leads to long and supportive partnerships and product innovations.
-                        This approach also protects your investment in the future.
-                    </p>
+                    <div class="about-inlinebox">
+                        <div id="about-text2">
+                            <p>
+                                Our clients effectively have a stake in the future development of their software.
+                                Admission to the uniquely independent BLISS User Group brings the ability to influence future developments.
+                                Keeping clients supply chain software relevant and effective leads to long and supportive partnerships and product innovations.
+                                This approach also protects your investment in the future.
+                            </p>
+                            <div id="cake2.jpg">
+                                <img src="../images/cake2.jpg">
+                            </div>
+                        </div>
+                    </div>
             </div>
             <?php include_once '../includes/footer.php'; ?>
         </div>

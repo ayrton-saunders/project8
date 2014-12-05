@@ -10,6 +10,7 @@ $pageNo = 4;
 ?>
 <html>
     <head>
+        <link rel="icon" type="image/png" href="../css/favicon.ico"/>
         <link href="../css/project8.css" rel="stylesheet" type="text/css"/>
         <script type="text/javascript" src="../javascript/project8.js"></script>
         <script type='text/javascript' src='../jquery/jquery.min.js'></script>
@@ -26,11 +27,10 @@ $pageNo = 4;
                 $("#blissPopUp").animate({
                     width: '600px' 
                 }, 1000);
-                
-                //animation for "blissLogo.png"
-                $("#blissLogo").animate({
-                    width: '350px'
-                }, 1000);
+             
+                if (window.screen.width > 1200) {
+                    $('#mainImgHolder').fadeIn(2000);
+                }
             });
 
         </script>
@@ -42,7 +42,9 @@ $pageNo = 4;
         <div id="wrapper" class="shadow">
             <?php include_once '../includes/header.php'; ?>
             <div id="content">
-                <img class="center" src="../images/blissLogo.png" id="blissLogo">
+                <div id="mainImgHolder">
+                    <img class="center" src="../images/blissLogo.png" id="blissLogo">
+                </div>
                 <h2 class="text-center">Drive Computing - BLISS Overview</h2>
                 <p>
                     Food ERP UK is arguably the best way to deal with the challenges of operating in todays UK food and drink sector
