@@ -30,6 +30,13 @@ body {
     border-radius: 10px;
 }
 
+h1 {
+    font-family: "Righteous";
+    font-size: 80px;
+    color: #74B5FC;
+    text-shadow: 0 3px 0 #b2a98f,0 14px 10px rgba(0,0,0,0.15), 0 20px 2px rgba(0,0,0,0.1), 0 34px 30px rgba(0,0,0,0.1);
+}
+
 .pageTitle {
     font-family: "Righteous";
     font-size: 80px;
@@ -190,7 +197,8 @@ Initial display is none as jquery is used to fade in
 #aboutUsSlider {
     width: 500px;
     height: 250px;
-    border-radius: 3px;
+    border-radius: 10px;
+    display: none;
 }
 
 #mobileAboutUsSlider {
@@ -198,6 +206,29 @@ Initial display is none as jquery is used to fade in
     height: 100px;
     border-radius: 10px;
     display: none;
+}
+.about-inlinebox {
+    width: 100%;
+}
+
+#cake.jpg {
+    display: inline-block;
+    width: 39%;
+}
+
+#about-text1 {
+   display: inline-block;
+   width: 60%;
+}
+
+#cake2.jpg {
+    display: inline-block;
+    width: 39%;
+}
+
+#about-text2 {
+   display: inline-block;
+   width: 60%;
 }
 
 /*Styling for Bliss Overview Page*/
