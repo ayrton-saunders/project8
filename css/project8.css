@@ -1,0 +1,415 @@
+/*downloaded fonts*/
+@font-face {
+    font-family: "Righteous";
+    src: url("../fonts/righteous.ttf");
+}
+
+/*global styles*/
+body {
+    background: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    background: white;
+    width: 60%;
+    margin-left: 20%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#content {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 40px;
+}
+
+.slider img {
+    border-radius: 10px;
+}
+
+.pageTitle {
+    font-family: "Righteous";
+    font-size: 80px;
+    color: #74B5FC;
+    text-shadow: 0 3px 0 #b2a98f,0 14px 10px rgba(0,0,0,0.15), 0 20px 2px rgba(0,0,0,0.1), 0 34px 30px rgba(0,0,0,0.1);
+}
+
+h2 {
+    font-family: "Righteous";
+    font-size: 30px;
+    color: #74B5FC;
+    text-shadow: 0 3px 0 #b2a98f,0 10px 10px rgba(0,0,0,0.15), 0 5px 2px rgba(0,0,0,0.1), 0 34px 30px rgba(0,0,0,0.1);
+}
+
+p {
+    font-size: 20px;
+}
+
+.shadow {
+    -moz-box-shadow:    2px 2px 4px 5px #ccc;
+    -webkit-box-shadow: 2px 2px 4px 5px #ccc;
+    box-shadow:         2px 2px 4px 5px #ccc;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left li {
+    list-style: none;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+/*all header/navigation styles*/
+#header {
+    background: #E1E6ED;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.navBar {
+    width: 100%;
+    background: #ACD1FA;
+    z-index: 99;
+}
+
+.navBtn {
+    font-family: "Righteous";
+    transition: all 0.2s ease-out;
+    display: inline-block;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.navBtn:hover {
+    background: #74B5FC;
+    color: white;
+}
+
+#mobileNavBar {
+    display: none;
+}
+
+.showMenuBtn {
+    text-align: center;
+    font-family: "Righteous";
+    display: list-item;
+    list-style: none;
+    margin-bottom: 10px;
+    width: 20%;
+    padding: 10px;
+    border-radius: 10px;
+    background: #74B5FC;
+    cursor: pointer;
+}
+
+.mobileBtn {
+    text-align: center;
+    font-family: "Righteous";
+    display: list-item;
+    list-style: none;
+    margin-bottom: 10px;
+    width: 50%;
+    padding: 10px;
+    border-radius: 10px;
+    background: #ACD1FA;
+    cursor: pointer;
+}
+
+.pageSelected {
+    font-family: "Righteous";
+    transition: all 0.2s ease-out;
+    display: inline-block;
+    padding: 20px;
+    cursor: pointer;
+    background: #74B5FC;
+    color: white;
+}
+
+
+/*all home page styling
+Initial display is none as jquery is used to fade in
+*/
+#homeSlider {
+    width: 500px;
+    height: 250px;
+    border-radius: 10px;
+    display: none;
+}
+
+.sliderImg {
+    border-radius: 10px;
+}
+
+#mobileHomeSlider {
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    display: none;
+}
+
+/*Apprenticeships page styling*/
+.apprenticeships-inlinebox {
+    width: 100%;
+}
+
+#learnImg {
+    display: inline-block;
+    width: 39%;
+}
+
+#apprenticeships-text1 {
+    display: inline-block;
+    width: 60%;
+}
+
+#mobileBlissLogo {
+    display: none;
+}
+
+#mainImgHolder {
+    display: none;
+}
+
+/*Styling for About Us Page*/
+#aboutUsSlider {
+    width: 500px;
+    height: 250px;
+    border-radius: 3px;
+}
+
+#mobileAboutUsSlider {
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    display: none;
+}
+
+/*Styling for Bliss Overview Page*/
+#blissPopUp {
+    width: 0px;
+    height: 100px;
+    background: #ACD1FA;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.bliss-inlinebox {
+    width: 100%;
+}
+
+#drinkCansImg {
+    display: inline-block;
+    width: 39%;
+}
+
+#bliss-text1 {
+   display: inline-block;
+   width: 60%;
+}
+
+#foodCansImg {
+    display: inline-block;
+    width: 39%;
+}
+
+#bliss-text2 {
+   display: inline-block;
+   width: 60%;
+}
+
+
+/*footer styling*/
+#footer {
+    background: #ACD1FA;
+    width: 100%;
+    height: 25%;
+    border-radius: 0px 0px 10px 10px;
+}
+
+#footerRight {
+    background-color: #D7DCFC;
+    height: 100%;
+    width: 25%;
+    float: right;
+    top: 50%;
+    text-align: center;
+    border-radius: 0px 0px 10px 0px;
+}
+
+/*responsive designs*/
+@media (max-width: 1600px) {    
+    #wrapper {
+        margin-left: 10%;
+        width: 80%;
+    } 
+}
+
+@media (max-width: 1200px) {  
+    h1 {
+        font-size: 60px;
+        text-shadow: none;
+    }
+    h2 {
+        text-shadow: none;
+    }
+    #wrapper {
+        margin-left: 5%;
+        width: 90%;
+    } 
+    #drinkCansImg {
+    display: inline-block;
+    width: 49%;
+    }
+    #bliss-text1 {
+       display: inline-block;
+       width: 50%;
+    }
+    #foodCansImg {
+    display: inline-block;
+    width: 49%;
+    }
+    #bliss-text2 {
+       display: inline-block;
+       width: 50%;
+    }
+}
+
+@media (max-width: 640px) {    
+    h1 {
+        font-size: 25px;
+    }
+    h2 {
+        font-size: 15px;
+    }
+    h3 {
+        font-size: 14px;
+    }
+    p {
+        font-size: 12px;
+    }
+    #wrapper {
+        margin-left: 0%;
+        width: 100%;
+    } 
+    #navBar {
+        display: none;
+    }
+    #mobileNavBar {
+        display: block;
+    }
+    #homeSlider {
+        display: none;
+    }
+    #mobileHomeSlider {
+        display: block;
+    }
+    #aboutUsSlider {
+        display: none;
+    }
+    #mobileAboutUsSlider {
+        display: block;
+    }
+    #logoEffect {
+        display: none;
+    }
+    #mobileBlissLogo {
+        display: block;
+    }
+}
+
+
+
+/*Pop out effect on bliss image(home page)*/
+.grid {
+    padding: 20px 20px 100px 20px;
+    max-width: 1300px;
+    margin: 0 auto;
+    list-style: none;
+    text-align: center;
+}
+.grid li {
+    display: inline-block;
+    width: 425px;
+    margin: 0;
+    padding: 20px;
+    text-align: left;
+    position: relative;
+}
+.grid figure {
+    margin: 0;
+    position: relative;
+}
+.grid figure img {
+    max-width: 100%;
+    display: block;
+    position: relative;
+}
+.grid figcaption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0px;
+    background: #74B5FC;
+    color: #ed4e6e;
+}
+.grid figcaption h3 {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+.grid figcaption a {
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 2px;
+    display: inline-block;
+    background: #ed4e6e;
+    color: #fff;
+}
+.cs-style-1 figcaption {
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    text-align: center;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+    -moz-transition: -moz-transform 0.3s, opacity 0.3s;
+    transition: transform 0.3s, opacity 0.3s;
+}
+.no-touch .cs-style-1 figure:hover figcaption,
+.cs-style-1 figure.cs-hover figcaption {
+    opacity: 1;
+    -webkit-transform: translate(15px, 15px);
+    -moz-transform: translate(15px, 15px);
+    -ms-transform: translate(15px, 15px);
+    transform: translate(15px, 15px);
+}
+.cs-style-1 figcaption h3 {
+    margin-top: 70px;
+}
+.cs-style-1 figcaption span {
+    display: block;
+}
+.cs-style-1 figcaption a {
+    margin-top: 30px;
+}
