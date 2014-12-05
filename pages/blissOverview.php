@@ -28,7 +28,7 @@ $pageNo = 4;
                     width: '600px' 
                 }, 1000);
              
-                if (window.screen.width > 1200) {
+                if (window.screen.width > 640) {
                     $('#mainImgHolder').fadeIn(2000);
                 }
             });

@@ -36,10 +36,10 @@ $pageNo = 1;
                     autoplay: true,
                     autoplaySpeed: 2500
                 }); 
-                if (window.screen.width > 1200) {
+                if (window.screen.width > 640) {
                      $('#homeSlider').fadeIn(2000);
                 }
-                if (window.screen.width < 1200) {
+                if (window.screen.width < 640) {
                      $('#mobileHomeSlider').fadeIn(2000);
                 }
             });
