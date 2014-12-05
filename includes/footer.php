@@ -9,21 +9,18 @@ $modDate = "25/11/14";
 ?>
 <div id="footer">
     <div id="footerRight">
-        <br>
         <img src="../images/telIcon.jpg" width="20%" height="20%">
-         <br>
+        <br>
         01924 280388
         <br>
         <img src="../images/emailIcon.jpg" width="20%" height="20%">
-         <br>
-        support@drivecomputing.com
         <br>
+        <a href="mailto:drive@computing.com">drive@computing.com</a>
     </div>
         <center>
-            <br>
+            <br><br>
             <h3>Quality software by a British company.</h3>
             <h3>Get in touch today and get your FREE enqueue.</h3>
-            <br>
-            Copyright © 2012, Drive Computer Services Ltd. All rights reserved. 
+            <p>Copyright © 2012, Drive Computer Services Ltd. All rights reserved.</p>
         </center>
 </div>
